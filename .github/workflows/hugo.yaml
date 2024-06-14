@@ -57,7 +57,7 @@ jobs:
           HUGO_ENV: production
           TZ: America/Los_Angeles
         run: |
-          hugo \
+          cd defy-site && hugo defy-site \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
