@@ -24,14 +24,22 @@ Effectiveness of implemented methods confirmed by tests
 | BertAttack        | [paper](https://arxiv.org/abs/2004.09984)                                                                              |
 ### Tested detection algorithms
 
-| Name                                | Source                                    |
-| ----------------------------------- | ----------------------------------------- |
-| Frequency-Guided Word Substitutions | [paper](https://arxiv.org/abs/2004.05887) |
-| Masked Language Model Detection     | [paper](https://arxiv.org/abs/2304.08767) |
-| VoteTRANS                           | [paper](https://arxiv.org/abs/2306.01273) |
+| Name                                      | Source                                    |
+|-------------------------------------------|-------------------------------------------|
+| Frequency-Guided Word Substitutions       | [paper](https://arxiv.org/abs/2004.05887) |
+| Masked Language Model Detection           | [paper](https://arxiv.org/abs/2304.08767) |
+| VoteTRANS                                 | [paper](https://arxiv.org/abs/2306.01273) |
+| Ensemble method based on algorithms above |                                           |
 
 ## Results
 
+### Detection methods comparison
+
+#### English dataset
+![Detection methods English dataset](detection_methods_en.png)
+
+#### Polish dataset
+![Detection methods Polish dataset](detection_methods_pl.png)
 
 ## Important links
 
